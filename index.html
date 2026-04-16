@@ -16,35 +16,64 @@
         }
         h1 { font-size: 1.6em; margin-bottom: 0.2em; }
         h2 { font-size: 1.15em; margin-top: 1.8em; }
-        p { margin: 0.8em 0; }
+        p, ul { margin: 0.8em 0; }
+        ul { padding-left: 1.5em; }
         .date { color: #666; font-size: 0.9em; }
     </style>
 </head>
 <body>
     <h1>Privacy Policy</h1>
-    <p class="date">Effective date: April 15, 2026</p>
+    <p class="date">Last updated: April 11, 2026</p>
 
-    <p>Anchor: Breathwork ("Anchor," "we," "our") is a breathwork and meditation app for iOS. Your privacy is important to us. This policy explains what data Anchor accesses, how it is used, and your choices.</p>
+    <p>Anchor ("we," "our," "us," or "the app") is committed to protecting your privacy. This Privacy Policy describes what information Anchor accesses, how it is used, and your choices regarding that information.</p>
 
-    <h2>Data We Collect</h2>
-    <p><strong>None.</strong> Anchor does not collect, transmit, or store any personal data on external servers. There are no accounts, no analytics, no advertising, and no tracking of any kind.</p>
+    <h2>Information We Do Not Collect</h2>
+    <p>Anchor does not collect, store, or transmit any personal data to external servers. We do not have a backend, database, or cloud service. We do not collect your name, email address, location, device identifiers, or any other personally identifiable information.</p>
 
-    <h2>Data Stored on Your Device</h2>
-    <p>All app data — including your breathing session history, preferences, and settings — is stored locally on your device using Apple's SwiftData framework. This data never leaves your device unless you choose to back it up via iCloud (managed by Apple, not by us).</p>
+    <h2>On-Device Data</h2>
+    <p>Anchor stores the following data locally on your device:</p>
+    <ul>
+        <li>Session history (date, duration, cycles, pattern, feeling)</li>
+        <li>App preferences and settings</li>
+        <li>Visualization and sound choices</li>
+    </ul>
+    <p>This data never leaves your device and is not accessible to us. It is stored using Apple's SwiftData framework in a local database on your device.</p>
 
-    <h2>Apple HealthKit</h2>
-    <p>If you grant permission, Anchor writes your completed breathing sessions to Apple Health as Mindful Minutes and reads your existing mindful session data. This data is handled entirely by Apple's HealthKit framework and is governed by <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>. Anchor never accesses HealthKit data for advertising, marketing, or data mining purposes, in accordance with Apple's HealthKit guidelines.</p>
+    <h2>Apple Health Integration</h2>
+    <p>If you choose to enable Apple Health integration in Settings, Anchor will:</p>
+    <ul>
+        <li>Write mindful session data (start time, end time, and duration) to Apple HealthKit after each completed session</li>
+        <li>Read mindful session data created by Anchor in order to delete it if you delete a session from the app</li>
+    </ul>
+    <p>Anchor does not read any other health data. Apple Health integration is entirely optional and can be enabled or disabled at any time in Settings. Data written to Apple Health is governed by Apple's privacy policies and your device's Health privacy settings.</p>
+
+    <h2>Analytics, Advertising &amp; Tracking</h2>
+    <p>Anchor does not use any analytics frameworks, crash reporting tools, advertising SDKs, or tracking technologies. We do not track your usage patterns, behavior, or any other activity within or outside the app.</p>
 
     <h2>Third-Party Services</h2>
-    <p>Anchor does not integrate with any third-party analytics, advertising, crash reporting, or data collection services.</p>
+    <p>Anchor does not integrate with any third-party services other than Apple HealthKit (as described above). We do not share data with any third parties.</p>
+
+    <h2>Data Retention &amp; Deletion</h2>
+    <p>Since all data is stored locally on your device:</p>
+    <ul>
+        <li>You can delete individual sessions from within the app. If the session was synced to Apple Health, the corresponding Health data will also be removed.</li>
+        <li>Uninstalling Anchor removes all locally stored app data.</li>
+        <li>Data written to Apple Health can be independently managed through Apple's Health app under Settings &gt; Health &gt; Data Access &amp; Devices.</li>
+    </ul>
+
+    <h2>iCloud Backup</h2>
+    <p>If you use iCloud backup on your device, your device backup may include Anchor's local data as part of the standard iOS backup process. This is controlled by your iCloud settings, not by Anchor.</p>
 
     <h2>Children's Privacy</h2>
-    <p>Anchor does not knowingly collect any information from children. The app contains no user accounts, social features, or data collection mechanisms.</p>
+    <p>Anchor is not directed at children under the age of 13. We do not knowingly collect any information from children. Since Anchor does not collect any personal information from any user, no special provisions are necessary.</p>
+
+    <h2>Security</h2>
+    <p>Because Anchor does not transmit data over the internet, the risk of data interception is eliminated. Your session data is protected by your device's built-in security features, including device passcode, Face ID, or Touch ID.</p>
 
     <h2>Changes to This Policy</h2>
-    <p>If we update this policy, the revised version will be posted at this URL with an updated effective date.</p>
+    <p>We may update this Privacy Policy from time to time. Any changes will be reflected by updating the "Last updated" date at the top of this policy. We encourage you to review this policy periodically.</p>
 
-    <h2>Contact</h2>
-    <p>If you have questions about this privacy policy, contact us at <a href="mailto:jordan.dedels@gmail.com">jordan.dedels@gmail.com</a>.</p>
+    <h2>Contact Us</h2>
+    <p>If you have any questions or concerns about this Privacy Policy, please contact us at <a href="mailto:hello@anchorbreathwork.com">hello@anchorbreathwork.com</a>.</p>
 </body>
 </html>
